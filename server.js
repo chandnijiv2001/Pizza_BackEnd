@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors({
-  origin: 'https://pizzadelivery.onrender.com',
+  origin: 'https://panpizza.onrender.com',
   credentials: true,
   optionSuccessStatus:200,
 }))
